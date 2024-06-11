@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixivivu</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-wrap">
+                <div class="container">
+                    <div class="header-main">
+                        <div class="header-nav">
+                            <div class="header-logo">
+                                <a href="./index.html">
+                                    <img src="./assets/images/black-logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="header-menu">
+                                <ul>
+                                    <li>
+                                        <a href="./yacht.html">Tìm du thuyền</a>
+                                    </li>
+                                    <li>
+                                        <a href="./flight.html">Tìm vé máy bay</a>
+                                    </li>
+                                    <li>
+                                        <a href="./about.html">Doanh nghiệp</a>
+                                    </li>
+                                    <li>
+                                        <a href="./blogs.html">Blog</a>
+                                    </li>
+                                    <li class="hidden-lg">
+                                        <a href="tel:+0922222016">Hotline: 0922222016</a>
+                                    </li>
+                                    <li class="hidden-lg">
+                                        <a href="mailto:info@mixivivu.com">Email: info@mixivivu.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-contact">
+                            <div class="header-phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+0922222016">Hotline: 0922222016</a>
+                            </div>
+                            <div class="button button-primary button-bd-sm header-button">
+                                <a href="./contact.html">
+                                    Liên hệ Mixivivu
+                                </a>
+                            </div>
+                            <div class="header-toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7C4 5.34315 5.34315 4 7 4C8.65685 4 10 5.34315 10 7C10 8.65685 8.65685 10 7 10C5.34315 10 4 8.65685 4 7Z" stroke="#1D2939" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 7C14 5.34315 15.3431 4 17 4C18.6569 4 20 5.34315 20 7C20 8.65685 18.6569 10 17 10C15.3431 10 14 8.65685 14 7Z" stroke="#1D2939" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 17C14 15.3431 15.3431 14 17 14C18.6569 14 20 15.3431 20 17C20 18.6569 18.6569 20 17 20C15.3431 20 14 18.6569 14 17Z" stroke="#1D2939" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 17C4 15.3431 5.34315 14 7 14C8.65685 14 10 15.3431 10 17C10 18.6569 8.65685 20 7 20C5.34315 20 4 18.6569 4 17Z" stroke="#1D2939" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="container">
+                <div class="breadcrumbs">
+                    <div class="breadcrumbs-inner">
+                        <a href="">
+                            <i class="fa-regular fa-house"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-light fa-angle-right"></i> Tìm vé máy bay
+                        </a>
+                        <a href="">
+                            <i class="fa-light fa-angle-right"></i> HAN - SGN
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-bg">
+                <div class="container">
+                    <div class="flight-search d-flex flex-column gap-40">
+                        <div class="card flight-search-wrap">
+                            <div class="d-flex flex-column gap-24">
+                                <div class="d-flex gap-16">
+                                    <div class="button button-bd-nomal button-link btn-arrow-change">
+                                        <i class="fa-light fa-arrow-right-arrow-left"></i>
+                                        <span>Một chiều</span>
+                                    </div>
+                                    <div class="flight-search-selectinput">
+                                        <span class="button button-bd-nomal button-link flight-search-selectinput__button">
+                                            <i class="fa-light fa-user"></i>
+                                            <span id="total-people">1</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        </span>
+                                        <div class="flight-search-selectinput__dropdown-inner">
+                                            <div class="flight-search-selectinput__dropdown">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <i class="fa-light fa-user"></i>
+                                                        <input type="number" name="adult" id="adult" min="0" value="1" class="flight-people-qty">
+                                                        <label for="">Người lớn</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <i class="fa-light fa-user"></i>
+                                                        <input type="number" name="children" id="children" min="0" value="0" class="flight-people-qty">
+                                                        <label for="">Trẻ em</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <i class="fa-light fa-user"></i>
+                                                        <input type="number" name="infant" id="infant" min="0" value="0" class="flight-people-qty">
+                                                        <label for="">Em bé</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-16 flight-search-input-group">
+                                    <div class="flex-grow-1">
+                                        <div class="input-group">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M19.1667 7.76666C19.2189 7.55255 19.1891 7.32665 19.0833 7.13333C18.8133 6.6647 18.4533 6.25401 18.0241 5.92483C17.5949 5.59565 17.105 5.35445 16.5824 5.21509C16.0597 5.07572 15.5147 5.04093 14.9786 5.1127C14.4425 5.18447 13.9259 5.3614 13.4583 5.63333L11.6667 6.66666L7.49999 4.70833C7.38154 4.64696 7.25007 4.61493 7.11666 4.61493C6.98325 4.61493 6.85179 4.64696 6.73333 4.70833L4.23333 6.15C4.10978 6.22126 4.00659 6.32305 3.93363 6.44561C3.86068 6.56818 3.8204 6.70741 3.81666 6.85C3.81263 6.99364 3.8458 7.13588 3.91297 7.26292C3.98014 7.38995 4.07901 7.49746 4.2 7.575L6.95 9.30833L5.49999 10.1417L1.51666 10.625C1.35653 10.6448 1.2056 10.7107 1.08218 10.8146C0.958764 10.9185 0.868172 11.0561 0.821404 11.2105C0.774636 11.3649 0.773703 11.5296 0.818719 11.6845C0.863735 11.8395 0.952763 11.978 1.07499 12.0833L4.02499 14.6333C4.41337 15.004 4.91075 15.2398 5.44353 15.3058C5.97632 15.3719 6.51621 15.2646 6.98333 15L18.75 8.275C18.8503 8.22294 18.9389 8.15103 19.0106 8.06365C19.0822 7.97626 19.1353 7.87522 19.1667 7.76666ZM6.22499 13.6C6.06492 13.6881 5.88033 13.7211 5.69964 13.694C5.51896 13.6669 5.35218 13.5812 5.225 13.45L3.64166 12.0917L5.91666 11.8167C6.02846 11.8023 6.13619 11.7655 6.23333 11.7083L9.03333 10.1C9.15807 10.028 9.26202 9.9249 9.33505 9.80076C9.40807 9.67662 9.44768 9.53567 9.45 9.39166C9.4517 9.24864 9.41657 9.10758 9.34798 8.98206C9.27938 8.85654 9.17963 8.7508 9.05833 8.675L6.30833 6.93333L7.225 6.40833L11.3917 8.34166C11.5101 8.40303 11.6416 8.43506 11.775 8.43506C11.9084 8.43506 12.0399 8.40303 12.1583 8.34166L14.2917 7.10833C14.7288 6.86333 15.2295 6.75538 15.7288 6.79847C16.2281 6.84156 16.7029 7.03371 17.0917 7.35L6.22499 13.6Z" fill="#98A2B3"></path></svg>
+                                            <input type="text" name="" placeholder="Vui lòng nhập điểm đi">
+                                            <label for="">Điểm đi</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div class="input-group">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17.6 13.525C17.3129 12.4729 16.6248 11.5754 15.6833 11.025L13.925 9.99997L13.525 5.44164C13.514 5.3085 13.4712 5.17995 13.4001 5.06682C13.3291 4.9537 13.2318 4.85932 13.1167 4.79164L10.6167 3.3583C10.49 3.28516 10.3463 3.24666 10.2 3.24666C10.0537 3.24666 9.91001 3.28516 9.78333 3.3583C9.65667 3.42747 9.55015 3.52835 9.47419 3.65106C9.39822 3.77376 9.35543 3.91409 9.35 4.0583L9.225 7.3083L7.76666 6.47497L5.38333 3.26664C5.28642 3.13805 5.15432 3.04029 5.00303 2.98519C4.85173 2.93009 4.68771 2.92 4.5308 2.95614C4.37389 2.99228 4.23081 3.07311 4.11886 3.18885C4.00691 3.30459 3.93089 3.45028 3.9 3.6083L3.175 7.44997C3.04874 7.97076 3.09316 8.51834 3.30171 9.01196C3.51027 9.50559 3.87191 9.91914 4.33333 10.1916L16.05 16.95C16.2383 17.0608 16.4626 17.0931 16.6746 17.0401C16.8866 16.9871 17.0693 16.853 17.1833 16.6666C17.4582 16.197 17.6366 15.6772 17.7082 15.1378C17.7797 14.5983 17.7429 14.05 17.6 13.525ZM16.0333 15L5.16666 8.74997C5.01083 8.65485 4.89056 8.51118 4.82431 8.34106C4.75807 8.17093 4.74953 7.98376 4.8 7.8083L5.18333 5.77497L6.56666 7.6083C6.63384 7.69952 6.7189 7.77608 6.81666 7.8333L9.60833 9.44997C9.73282 9.52197 9.87383 9.56052 10.0176 9.56189C10.1614 9.56325 10.3032 9.52737 10.429 9.45774C10.5548 9.38811 10.6605 9.2871 10.7357 9.16454C10.811 9.04198 10.8532 8.90203 10.8583 8.7583L10.9917 5.5083L11.9 6.0333L12.3 10.5916C12.3119 10.7256 12.356 10.8546 12.4285 10.9678C12.5011 11.081 12.5999 11.1749 12.7167 11.2416L14.85 12.5C15.1275 12.6601 15.3706 12.8736 15.5651 13.1282C15.7596 13.3828 15.9018 13.6734 15.9833 13.9833C16.0763 14.3141 16.0934 14.6616 16.0333 15Z" fill="#98A2B3"></path></svg>
+                                            <input type="text" name="" placeholder="Vui lòng nhập điểm đến">
+                                            <label for="">Điểm đến</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div class="input-group">
+                                            <i class="fa-duotone fa-calendar-days icon-dt"></i>
+                                            <input type="text" name="" placeholder="" value="14/02/2024" class="hasDatepicker flatpickr-input" readonly="readonly">
+                                            <label for="">Ngày đi</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1" id="flight-search-arrival" style="display: none;">
+                                        <div class="input-group">
+                                            <i class="fa-duotone fa-calendar-days icon-dt"></i>
+                                            <input type="text" name="" placeholder="" value="14/02/2024" class="hasDatepicker flatpickr-input" readonly="readonly">
+                                            <label for="">Ngày đến</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="button button-bd-nomal button-color flight-search-submit-btn">Tìm kiếm</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="steps">
+                                <div class="steps-item">
+                                    <div class="steps-icon steps-item-inprogress"></div>
+                                    <div class="steps-body">
+                                        <label for="">Chọn chuyến bay</label>
+                                        <p>Vui lòng chọn chuyến bay</p>
+                                    </div>
+                                </div>
+                                <div class="steps-item">
+                                    <div class="steps-icon"></div>
+                                    <div class="steps-body">
+                                        <label for="">Đặt chỗ</label>
+                                        <p>Điền thông tin đặt chỗ</p>
+                                    </div>
+                                </div>
+                                <div class="steps-item">
+                                    <div class="steps-icon"></div>
+                                    <div class="steps-body">
+                                        <label for="">Thanh toán</label>
+                                        <p>Thanh toán để nhận vé máy bay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="button button-bd-nomal button-outline flight-search-filter w-100">
+                            <i class="fa-light fa-filter"></i>
+                            Bộ lọc
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                        <div class="flight-search_flight-container">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="flight-sidebar">
+                                        <div class="flight-sidebar-item">
+                                            <div class="flight-sidebar-header">
+                                                <div class="title">Lọc kết quả</div>
+                                            </div>
+                                            <div class="widget flight-sidebar_filter-item">
+                                                <div class="widget-head">Hiển thị theo</div>
+                                                <div class="filter-checkbox">
+                                                    <input type="checkbox" name="" id="fl1">
+                                                    <label for="fl1">Bamboo Airways</label>
+                                                </div>
+                                                <div class="filter-checkbox">
+                                                    <input type="checkbox" name="" id="fl2">
+                                                    <label for="fl2">Vietjet Air</label>
+                                                </div>
+                                                <div class="filter-checkbox">
+                                                    <input type="checkbox" name="" id="fl3">
+                                                    <label for="fl3">Viettravel Airlines</label>
+                                                </div>
+                                                <div class="filter-checkbox">
+                                                    <input type="checkbox" name="" id="fl4">
+                                                    <label for="fl4">Vietnam Airlines</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flight-sidebar-item">
+                                            <div class="flight-sidebar-header">
+                                                <div class="title">Chi tiết giá vé</div>
+                                            </div>
+                                            <div class="widget flight-sidebar_filter-item">
+                                                <div class="flight-info">
+                                                    <div class="flight-info-item">
+                                                        <div class="flight-info_image">
+                                                            <img src="./assets/images/QH.png" alt="">
+                                                        </div>
+                                                        <div class="flight-info_desc">
+                                                            <label for="" class="head">
+                                                                SGN 
+                                                                <i class="fa-sharp fa-light fa-arrow-right"></i>
+                                                                HAN
+                                                            </label>
+                                                            <p class="sm">21:05, 25/04/2024</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flight-info-item">
+                                                        <div class="flight-info_image">
+                                                            <img src="./assets/images/QH.png" alt="">
+                                                        </div>
+                                                        <div class="flight-info_desc">
+                                                            <label for="" class="head">
+                                                                HAN 
+                                                                <i class="fa-sharp fa-light fa-arrow-right"></i>
+                                                                SGN
+                                                            </label>
+                                                            <p class="sm">21:05, 25/04/2024</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="widget flight-sidebar_filter-item">
+                                                <div class="widget-head">Tóm tắt vé</div>
+                                                <div class="provisional-valuation">
+                                                    <div class="item">
+                                                        <div>Người lớn</div>
+                                                        <div class="item-head">
+                                                            1 x 2.000.000 VND
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div>Trẻ em</div>
+                                                        <div class="item-head">
+                                                            1 x 2.000.000 VND
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div>Em bé</div>
+                                                        <div class="item-head">
+                                                            1 x 2.000.000 VND
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="widget flight-sidebar_filter-item">
+                                                <div class="widget-head">Hành lí ký gửi</div>
+                                                <div class="sidebar-badge">
+                                                    <div class="item">
+                                                        <div>10kg</div>
+                                                        <div class="item-head">
+                                                            1 x 2.000.000 VND
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div>12kg</div>
+                                                        <div class="item-head">
+                                                            1 x 2.000.000 VND
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="widget flight-sidebar_footer">
+                                                <div class="flight-sidebar_footer-inner">
+                                                    <div class="title">Tổng</div>
+                                                    <div class="total-price">
+                                                        9.000.000 VND
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="flight-search_flight-content">
+                                        <div class="card airfare-list">
+                                            <div class="airfare-list-head">
+                                                <i class="fa-thin fa-plane-departure"></i>
+                                                <div class="airfare-list-head_detail">
+                                                    <div class="dtc-flight-title">
+                                                        <span>Sân bay Nội Bài (HAN)</span>
+                                                        <svg width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="var(--black)" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                        <span>Sân bay Tân Sơn Nhất (SGN)</span>
+                                                    </div>
+                                                    <span>Thứ 6, 26/04/2024</span>
+                                                </div>
+                                                <div class="airfare-list-collapse">
+                                                    <i class="fa-light fa-minus icon-minus"></i>
+                                                    <i class="fa-light fa-plus icon-plus"></i>
+                                                </div>
+                                            </div>
+                                            <div class="airfare-list-content">
+                                                <div class="airfare-content-group">
+                                                    <div class="card airfare-content-group-wrap">
+                                                        <div class="airfare-content-head">
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-img">
+                                                                    <div class="item-image">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <div class="item-desc">
+                                                                        <span class="air-code">QH201</span>
+                                                                        <span class="air-name">Bamboo Airway</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="airfare-content-pricemobile">
+                                                                    <span class="price-num">
+                                                                        4.630.000 VND
+                                                                    </span>
+                                                                    <p>VND</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">06:20</label>
+                                                                    <p>HAN</p>
+                                                                </div>
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">10:20</label>
+                                                                    <p>SGN</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content-price">
+                                                                <label class="price-num">
+                                                                    4.630.000 VND
+                                                                </label>
+                                                                <p>VND</p>
+                                                            </div>
+                                                            <button type="button" class="button button-bd-sm button-outline flight-content-selectbtn">Chọn</button>
+                                                            <div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="var(--gray-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="airfare-content-detailrow">
+                                                            <div class="airfare-content-detailrow__inner">
+                                                                <div class="info-flight">
+                                                                    <div class="vartical-steps">
+                                                                        <div class="vartical-big-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-big-dot"></div>
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-12 justify-content-between">
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                HAN
+                                                                            </label>
+                                                                        </div>
+                                                                        <p class="mb-0">Thời gian chuyến đi: 0 phút</p>
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                SGN
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-airline">
+                                                                    <div class="img-airline">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <p class="mb-0">
+                                                                        Hãng: Bamboo Airway
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Chuyến bay: QH201
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hạng chỗ: EconomyClass
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Máy bay: 231
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý xách tay: 7kg
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý ký gửi: 0kg
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card airfare-content-group-wrap">
+                                                        <div class="airfare-content-head">
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-img">
+                                                                    <div class="item-image">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <div class="item-desc">
+                                                                        <span class="air-code">QH201</span>
+                                                                        <span class="air-name">Bamboo Airway</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="airfare-content-pricemobile">
+                                                                    <span class="price-num">
+                                                                        4.630.000 VND
+                                                                    </span>
+                                                                    <p>VND</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">06:20</label>
+                                                                    <p>HAN</p>
+                                                                </div>
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">10:20</label>
+                                                                    <p>SGN</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content-price">
+                                                                <label class="price-num">
+                                                                    4.630.000 VND
+                                                                </label>
+                                                                <p>VND</p>
+                                                            </div>
+                                                            <button type="button" class="button button-bd-sm button-outline flight-content-selectbtn">Chọn</button>
+                                                            <div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="var(--gray-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="airfare-content-detailrow">
+                                                            <div class="airfare-content-detailrow__inner">
+                                                                <div class="info-flight">
+                                                                    <div class="vartical-steps">
+                                                                        <div class="vartical-big-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-big-dot"></div>
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-12 justify-content-between">
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                HAN
+                                                                            </label>
+                                                                        </div>
+                                                                        <p class="mb-0">Thời gian chuyến đi: 0 phút</p>
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                SGN
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-airline">
+                                                                    <div class="img-airline">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <p class="mb-0">
+                                                                        Hãng: Bamboo Airway
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Chuyến bay: QH201
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hạng chỗ: EconomyClass
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Máy bay: 231
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý xách tay: 7kg
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý ký gửi: 0kg
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="paginations">
+                                                <ul class="pagination-list">
+                                                    <li class="pagination-item pagination-left-item">
+                                                        <i class="fa-solid fa-arrow-left"></i> Trước
+                                                    </li>
+                                                    <li class="pagination-item">1</li>
+                                                    <li class="pagination-item">2</li>
+                                                    <li class="pagination-item">3</li>
+                                                    <li class="pagination-item">...</li>
+                                                    <li class="pagination-item">10</li>
+                                                    <li class="pagination-item">11</li>
+                                                    <li class="pagination-item">12</li>
+                                                    <li class="pagination-item pagination-right-item">
+                                                        <i class="fa-solid fa-arrow-right"></i> Sau
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card airfare-list">
+                                            <div class="airfare-list-head">
+                                                <i class="fa-thin fa-plane-arrival"></i>
+                                                <div class="airfare-list-head_detail">
+                                                    <div class="dtc-flight-title">
+                                                        <span>Sân bay Nội Bài (HAN)</span>
+                                                        <svg width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6H9.5M9.5 6L6.5 3M9.5 6L6.5 9" stroke="var(--black)" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                        <span>Sân bay Tân Sơn Nhất (SGN)</span>
+                                                    </div>
+                                                    <span>Thứ 6, 26/04/2024</span>
+                                                </div>
+                                                <div class="airfare-list-collapse">
+                                                    <i class="fa-light fa-minus icon-minus"></i>
+                                                    <i class="fa-light fa-plus icon-plus"></i>
+                                                </div>
+                                            </div>
+                                            <div class="airfare-list-content">
+                                                <div class="airfare-content-group">
+                                                    <div class="card airfare-content-group-wrap">
+                                                        <div class="airfare-content-head">
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-img">
+                                                                    <div class="item-image">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <div class="item-desc">
+                                                                        <span class="air-code">QH201</span>
+                                                                        <span class="air-name">Bamboo Airway</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="airfare-content-pricemobile">
+                                                                    <span class="price-num">
+                                                                        4.630.000 VND
+                                                                    </span>
+                                                                    <p>VND</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">06:20</label>
+                                                                    <p>HAN</p>
+                                                                </div>
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">10:20</label>
+                                                                    <p>SGN</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content-price">
+                                                                <label class="price-num">
+                                                                    4.630.000 VND
+                                                                </label>
+                                                                <p>VND</p>
+                                                            </div>
+                                                            <button type="button" class="button button-bd-sm button-outline flight-content-selectbtn">Chọn</button>
+                                                            <div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="var(--gray-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="airfare-content-detailrow">
+                                                            <div class="airfare-content-detailrow__inner">
+                                                                <div class="info-flight">
+                                                                    <div class="vartical-steps">
+                                                                        <div class="vartical-big-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-big-dot"></div>
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-12 justify-content-between">
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                HAN
+                                                                            </label>
+                                                                        </div>
+                                                                        <p class="mb-0">Thời gian chuyến đi: 0 phút</p>
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                SGN
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-airline">
+                                                                    <div class="img-airline">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <p class="mb-0">
+                                                                        Hãng: Bamboo Airway
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Chuyến bay: QH201
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hạng chỗ: EconomyClass
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Máy bay: 231
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý xách tay: 7kg
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý ký gửi: 0kg
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card airfare-content-group-wrap">
+                                                        <div class="airfare-content-head">
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-img">
+                                                                    <div class="item-image">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <div class="item-desc">
+                                                                        <span class="air-code">QH201</span>
+                                                                        <span class="air-name">Bamboo Airway</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="airfare-content-pricemobile">
+                                                                    <span class="price-num">
+                                                                        4.630.000 VND
+                                                                    </span>
+                                                                    <p>VND</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content__item-group">
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">06:20</label>
+                                                                    <p>HAN</p>
+                                                                </div>
+                                                                <div class="airfare-content-destination">
+                                                                    <label for="">10:20</label>
+                                                                    <p>SGN</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="airfare-content-price">
+                                                                <label class="price-num">
+                                                                    4.630.000 VND
+                                                                </label>
+                                                                <p>VND</p>
+                                                            </div>
+                                                            <button type="button" class="button button-bd-sm button-outline flight-content-selectbtn">Chọn</button>
+                                                            <div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="var(--gray-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="airfare-content-detailrow">
+                                                            <div class="airfare-content-detailrow__inner">
+                                                                <div class="info-flight">
+                                                                    <div class="vartical-steps">
+                                                                        <div class="vartical-big-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-small-dot"></div>
+                                                                        <div class="vartical-big-dot"></div>
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-12 justify-content-between">
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                HAN
+                                                                            </label>
+                                                                        </div>
+                                                                        <p class="mb-0">Thời gian chuyến đi: 0 phút</p>
+                                                                        <div class="d-flex gap-8 align-items-center">
+                                                                            <label for="" class="mb-0">
+                                                                                26/04/2024 06:20
+                                                                            </label>
+                                                                            <div class="item-dot">
+
+                                                                            </div>
+                                                                            <label for="" class="mb-0">
+                                                                                SGN
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-airline">
+                                                                    <div class="img-airline">
+                                                                        <img src="./assets/images/QH.png" alt="">
+                                                                    </div>
+                                                                    <p class="mb-0">
+                                                                        Hãng: Bamboo Airway
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Chuyến bay: QH201
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hạng chỗ: EconomyClass
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Máy bay: 231
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý xách tay: 7kg
+                                                                    </p>
+                                                                    <p class="mb-0">
+                                                                        Hành lý ký gửi: 0kg
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="paginations">
+                                                <ul class="pagination-list">
+                                                    <li class="pagination-item pagination-left-item">
+                                                        <i class="fa-solid fa-arrow-left"></i> Trước
+                                                    </li>
+                                                    <li class="pagination-item">1</li>
+                                                    <li class="pagination-item">2</li>
+                                                    <li class="pagination-item">3</li>
+                                                    <li class="pagination-item">...</li>
+                                                    <li class="pagination-item">10</li>
+                                                    <li class="pagination-item">11</li>
+                                                    <li class="pagination-item">12</li>
+                                                    <li class="pagination-item pagination-right-item">
+                                                        <i class="fa-solid fa-arrow-right"></i> Sau
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="card customer-info">
+                                            <div class="customer-info-head">
+                                                <div class="head">Thông tin hành khách</div>
+                                                <p class="sm" style="color: var(--error-base);">* Quý Khách vui lòng sử dụng tiếng Việt không dấu và không sử dụng các ký tự đặc biệt.<br>* Vui lòng nhập đầy đủ tên hành khách và những thông tin khác xuất hiện trên (các) giấy tờ tùy thân do chính phủ
+                                                    cấp của hành khách.</p>
+                                            </div>
+                                            <div class="customer-info-content">
+                                                <div class="d-flex flex-column gap-24">
+                                                    <div class="customer-info-content__item">
+                                                        <div class="d-flex gap-16 align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 20C5.33579 17.5226 8.50702 16 12 16C15.493 16 18.6642 17.5226 21 20M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            <div class="d-flex flex-column gap-4">
+                                                                <div class="head">Người lớn</div>
+                                                                <p class="mb-0">Hành khách 1</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="customer-input-group">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <select>
+                                                                            <option value="">Nam</option>
+                                                                            <option value="">Nữ</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập họ">
+                                                                        <label for="">Họ</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập tên đệm và tên">
+                                                                        <label for="">Tên đệm và tên</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="hasDatepicker" value="dd/mm/yy">
+                                                                        <label for="">Ngày sinh</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="customer-info-content__item">
+                                                        <div class="d-flex gap-16 align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 20C5.33579 17.5226 8.50702 16 12 16C15.493 16 18.6642 17.5226 21 20M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            <div class="d-flex flex-column gap-4">
+                                                                <div class="head">Trẻ em</div>
+                                                                <p class="mb-0">Hành khách 2</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="customer-input-group">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <select>
+                                                                            <option value="">Nam</option>
+                                                                            <option value="">Nữ</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập họ">
+                                                                        <label for="">Họ</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập tên đệm và tên">
+                                                                        <label for="">Tên đệm và tên</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="hasDatepicker" value="dd/mm/yy">
+                                                                        <label for="">Ngày sinh</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="customer-info-content__item">
+                                                        <div class="d-flex gap-16 align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 20C5.33579 17.5226 8.50702 16 12 16C15.493 16 18.6642 17.5226 21 20M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                            <div class="d-flex flex-column gap-4">
+                                                                <div class="head">Em bé</div>
+                                                                <p class="mb-0">Hành khách 3</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="customer-input-group">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <select>
+                                                                            <option value="">Nam</option>
+                                                                            <option value="">Nữ</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập họ">
+                                                                        <label for="">Họ</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" placeholder="Nhập tên đệm và tên">
+                                                                        <label for="">Tên đệm và tên</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="hasDatepicker" value="dd/mm/yy">
+                                                                        <label for="">Ngày sinh</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card customer-info">
+                                            <div class="customer-info-head">
+                                                <div class="head">Thông tin liên hệ</div>
+                                            </div>
+                                            <div class="customer-info-content">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="input-group">
+                                                            <select name="" id="">
+                                                                <option value="">Ông</option>
+                                                                <option value="">Bà</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group">
+                                                            <input type="text" name="" placeholder="Nhập họ">
+                                                            <label for="">Họ</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group">
+                                                            <input type="text" name="" placeholder="Nhập tên đệm và tên">
+                                                            <label for="">Tên</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group">
+                                                            <input type="text" name="" placeholder="Nhập điện thoại">
+                                                            <label for="">Điện thoại</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="" class="button button-bd-nomal button-outline"><i class="fa-light fa-arrow-left"></i> Quay lại</a>
+                                            <a href="" class="button button-bd-nomal button-color">Tiếp <i class="fa-light fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="footer-main-inner">
+                        <div class="footer-info">
+                            <a href="./index.html">
+                                <img src="./assets/images/white-logo.png" alt="">
+                            </a>
+                            <div class="footer-info-wrap">
+                                Công ty TNHH Du Lịch và Dịch Vụ Mixivivu<br><br>Tầng 7, số nhà 25, ngõ 38 phố Yên Lãng, phường Láng Hạ, quận Đống Đa, TP. Hà Nội<br><br>Mã số doanh nghiệp: 0110376372 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 05/06/2023
+                            </div>
+                        </div>
+                        <div class="footer-list">
+                            <div class="footer-column">
+                                <h5 class="footer-head">
+                                    GIỚI THIỆU
+                                </h5>
+                                <div class="footer-column-wrap">
+                                    <a href="">Về chúng tôi</a>
+                                    <a href="">Điều kiện và điều khoản</a>
+                                    <a href="">Chính sách riêng tư</a>
+                                </div>
+                            </div>
+                            <div class="footer-column">
+                                <h5 class="footer-head">
+                                    Điểm đến
+                                </h5>
+                                <div class="footer-column-wrap">
+                                    <a href="">Vịnh Hạ long</a>
+                                    <a href="">Vịnh Lan Hạ</a>
+                                    <a href="">Đảo Cát Bà</a>
+                                </div>
+                            </div>
+                            <div class="footer-column">
+                                <h5 class="footer-head">
+                                    Du thuyền
+                                </h5>
+                                <div class="footer-column-wrap">
+                                    <a href="">Blog</a>
+                                    <a href="">Quy định chung và lưu ý</a>
+                                    <a href="">Câu hỏi thường gặp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom-inner">
+                        <p class="copyright">Bản quyền © 2024 Mixivivu.</p>
+                        <div class="">
+                            <a href="">
+                                <img src="./assets/images/logoSaleNoti.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
